@@ -29,6 +29,10 @@ A modern, modular end-to-end (E2E) UI testing framework for testing the shopping
 mvn clean test
 
 mvn test -Dtest=testFeatures.LoginTest
+mvn test -Dtest=testServiceE2E.ShoppingRightwayE2ETest
+
+mvn -Dtest="testFeatures.*Test" test
+
 
 ```
 
